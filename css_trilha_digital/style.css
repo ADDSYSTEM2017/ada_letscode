@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
 h1{
     color:blue;
     font-size: 100px;
@@ -11,10 +15,18 @@ h1{
     text-decoration: underline;
     text-transform: capitalize;
     text-align: center;
+    font-family: 'Comic Neue', cursive, Arial, Helvetica, sans-serif
 }
  
+p{
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 90px;
+}
+
+
 .bg{
-    height: 500px;
+    height: 900px;
     width: 100%;
     background-image: url('https://images.unsplash.com/photo-1666919643134-d97687c1826c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyMXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
     background-size: cover;
